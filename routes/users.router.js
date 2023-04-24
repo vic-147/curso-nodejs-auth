@@ -28,7 +28,7 @@ router.get('/:id',
     }
   }
 );
-
+//creacion del usuario
 router.post('/',
   validatorHandler(createUserSchema, 'body'),
   async (req, res, next) => {

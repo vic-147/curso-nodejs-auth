@@ -19,6 +19,7 @@ services:
       - PGADMIN_DEFAULT_PASSWORD=toor
     ports:
       - 5050:80
+# ip para entrar: 172.18.0.2
 
 # no usado
   mysql:
